@@ -1,0 +1,103 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "I am logged into Orange Application.",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7027997343,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "When I am in OrangeHRP Application",
+            "match": {
+              "location": "OrangeHRPStep.when_I_am_in_OrangeHRP_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2531873674,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login to Application",
+            "match": {
+              "location": "OrangeHRPStep.login_to_Application()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Validating text – Job Title",
+        "description": "",
+        "id": "validate-orangehrp-page;validating-text-–-job-title",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2923355343,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Admin Link",
+            "match": {
+              "location": "OrangeHRPStep.i_click_on_Admin_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 356937194,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on Job",
+            "match": {
+              "location": "OrangeHRPStep.click_on_Job()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319202651,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "validate text – Job Title",
+            "match": {
+              "location": "OrangeHRPStep.validate_text_Job_Title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 427073832,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser",
+            "match": {
+              "location": "OrangeHRPStep.close_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate OrangeHRP Page",
+    "description": "",
+    "id": "validate-orangehrp-page",
+    "keyword": "Feature",
+    "uri": "features/TestCase_17_OrangeHRM.feature"
+  }
+]

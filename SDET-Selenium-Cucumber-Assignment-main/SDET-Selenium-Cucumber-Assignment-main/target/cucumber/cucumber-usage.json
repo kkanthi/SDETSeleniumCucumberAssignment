@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^validate text – Job Title$",
+    "steps": [
+      {
+        "name": "validate text – Job Title",
+        "aggregatedDurations": {
+          "average": 0.319202651,
+          "median": 0.319202651
+        },
+        "durations": [
+          {
+            "duration": 0.319202651,
+            "location": "features/TestCase_17_OrangeHRM.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^When I am in OrangeHRP Application$",
+    "steps": [
+      {
+        "name": "When I am in OrangeHRP Application",
+        "aggregatedDurations": {
+          "average": 7.027997343,
+          "median": 7.027997343
+        },
+        "durations": [
+          {
+            "duration": 7.027997343,
+            "location": "features/TestCase_17_OrangeHRM.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on Admin Link$",
+    "steps": [
+      {
+        "name": "I click on Admin Link",
+        "aggregatedDurations": {
+          "average": 2.923355343,
+          "median": 2.923355343
+        },
+        "durations": [
+          {
+            "duration": 2.923355343,
+            "location": "features/TestCase_17_OrangeHRM.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Click on Job$",
+    "steps": [
+      {
+        "name": "Click on Job",
+        "aggregatedDurations": {
+          "average": 0.356937194,
+          "median": 0.356937194
+        },
+        "durations": [
+          {
+            "duration": 0.356937194,
+            "location": "features/TestCase_17_OrangeHRM.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Login to Application$",
+    "steps": [
+      {
+        "name": "Login to Application",
+        "aggregatedDurations": {
+          "average": 2.531873674,
+          "median": 2.531873674
+        },
+        "durations": [
+          {
+            "duration": 2.531873674,
+            "location": "features/TestCase_17_OrangeHRM.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Close the browser$",
+    "steps": [
+      {
+        "name": "Close the browser",
+        "aggregatedDurations": {
+          "average": 0.427073832,
+          "median": 0.427073832
+        },
+        "durations": [
+          {
+            "duration": 0.427073832,
+            "location": "features/TestCase_17_OrangeHRM.feature:11"
+          }
+        ]
+      }
+    ]
+  }
+]

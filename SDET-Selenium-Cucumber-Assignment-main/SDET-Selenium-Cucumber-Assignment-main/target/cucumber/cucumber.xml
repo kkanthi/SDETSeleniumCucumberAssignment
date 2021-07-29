@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="13.58644">
+<testcase classname="Validate OrangeHRP Page" name="Validating text – Job Title" time="13.58644">
+<system-out><![CDATA[Given When I am in OrangeHRP Application....................................passed
+Then Login to Application...................................................passed
+When I click on Admin Link..................................................passed
+Then Click on Job...........................................................passed
+And validate text – Job Title...............................................passed
+And Close the browser.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

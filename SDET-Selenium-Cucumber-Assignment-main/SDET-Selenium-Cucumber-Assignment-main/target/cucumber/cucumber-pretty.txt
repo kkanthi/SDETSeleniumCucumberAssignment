@@ -1,0 +1,11 @@
+Feature: Validate OrangeHRP Page
+
+  Background: I am logged into Orange Application. # features/TestCase_17_OrangeHRM.feature:3
+    Given When I am in OrangeHRP Application       # OrangeHRPStep.when_I_am_in_OrangeHRP_Application()
+    Then Login to Application                      # OrangeHRPStep.login_to_Application()
+
+  Scenario: Validating text – Job Title # features/TestCase_17_OrangeHRM.feature:7
+    When I click on Admin Link          # OrangeHRPStep.i_click_on_Admin_Link()
+    Then Click on Job                   # OrangeHRPStep.click_on_Job()
+    And validate text – Job Title       # OrangeHRPStep.validate_text_Job_Title()
+    And Close the browser               # OrangeHRPStep.close_the_browser()
